@@ -34,6 +34,7 @@ class Stack:
         else:
             node.prev = self.bottom
             self.bottom = node
+            
 
     def pop(self):
 
